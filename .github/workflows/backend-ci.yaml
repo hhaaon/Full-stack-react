@@ -6,7 +6,7 @@ on:
   pull-request:
     branches:
       - main
-jos:
+jobs:
   lint-and test:
     runs-on: ubuntu-latest
     strategy:
